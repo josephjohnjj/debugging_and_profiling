@@ -11,7 +11,7 @@ Prerequisite:
 1. Experience with Python Programming.
 * * *
 
-## Toools Used
+## Tools Discussed
 
 1. Time
 2. Codetiming
