@@ -24,10 +24,16 @@ def main():
     arr2 = create_array(N)
 
     profiler = Profile()
+
     profiler.enable()
     profiler.runctx('numpy_multiple(arr1, arr2)', globals(), locals())
     profiler.disable()
     profiler.dump_stats("numpy_multiple.prof")
+
+    profiler.enable()
+    profiler.runctx('slow_multiply(arr1, arr2)', globals(), locals())
+    profiler.disable()
+    profiler.dump_stats("slow_multiply.prof")
     
 if __name__ == '__main__':
     main()
