@@ -20,7 +20,9 @@ Prerequisite:
 5. Perf Tools
 6. SnakeViz
 
+## Virtual Environment
 
+source /scratch/vp91/Training-Venv/profiling/bin/activate
 
 
 ## Contributers
